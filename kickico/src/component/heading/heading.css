@@ -1,0 +1,15 @@
+.heading {
+	background: none no-repeat scroll 0 0 #34373C;
+	margin: 0 0 20px;
+	height: 60px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.heading > .logo {
+	padding: 12px 20px 8px 20px;
+}
+
+.heading > .logo > a {
+	height: 60px;
+}
