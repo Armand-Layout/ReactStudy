@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-const Faq = () => (
-    <section className='faq'>
-        Страница вопросы и ответы!
-    </section>
-);
+class Faq extends Component {
+    render() {
+        return (
+            <section className='faq'>
+                Страница вопросы и ответы!
+            </section>
+        )
+    }
+}
 
 export default Faq;

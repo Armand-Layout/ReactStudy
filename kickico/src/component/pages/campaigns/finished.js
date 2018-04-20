@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-const CampaignsFinished = () => (
-    <div>
-        Страница успешные компании!
-    </div>
-);
+import './finished.scss'
+
+class CampaignsFinished extends Component {
+    render() {
+        return (
+            <section className="campaingFinished">
+                <p className="red">Страница успешные компании!</p>
+            </section>
+        );
+    }
+}
 
 export default CampaignsFinished;
+

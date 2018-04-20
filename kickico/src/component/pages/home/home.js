@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-const Home = () => (
-    <section className='Home'>
-        <h1>Это главная страница</h1>
-    </section>
-);
+class Home extends Component {
+    render() {
+        return (
+            <section className='Home'>
+                <h1>Это главная страница</h1>
+            </section>
+        )
+    }
+}
 
 export default Home

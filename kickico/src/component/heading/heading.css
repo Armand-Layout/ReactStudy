@@ -1,15 +1,18 @@
 .heading {
-	background: none no-repeat scroll 0 0 #34373C;
-	margin: 0 0 20px;
-	height: 60px;
-	display: flex;
-	justify-content: flex-start;
-}
-
-.heading > .logo {
-	padding: 12px 20px 8px 20px;
-}
-
-.heading > .logo > a {
-	height: 60px;
-}
+  background: none no-repeat scroll 0 0 #34373C;
+  margin: 0 0 20px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between; }
+  .heading > .heading-left {
+    display: flex;
+    justify-content: flex-start; }
+    .heading > .heading-left > .logo {
+      padding: 12px 0 8px 20px; }
+      .heading > .heading-left > .logo > a {
+        height: 64px; }
+        .heading > .heading-left > .logo > a > img {
+          height: 40px; }
+  .heading > .heading-right {
+    display: flex;
+    justify-content: flex-end; }

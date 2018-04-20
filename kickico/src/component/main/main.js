@@ -8,14 +8,12 @@ import CampaignsFinished from '../pages/campaigns/finished'
 import Faq from '../pages/faq/faq'
 
 const Main = () => (
-    <main>
-        <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/rating' component={RatingCompaning} />
-            <Route path='/campaigns/finished' component={CampaignsFinished} />
-            <Route path='/faq' component={Faq} />
-        </Switch>
-    </main>
+    <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/rating' component={RatingCompaning} />
+        <Route path='/campaigns/finished' component={CampaignsFinished} />
+        <Route path='/faq' component={Faq} />
+    </Switch>
 );
 
 export default Main

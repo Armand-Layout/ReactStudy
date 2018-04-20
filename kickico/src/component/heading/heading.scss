@@ -1,0 +1,25 @@
+.heading {
+	background: none no-repeat scroll 0 0 #34373C;
+	margin: 0 0 20px;
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	> .heading-left {
+		display: flex;
+		justify-content: flex-start;
+		> .logo {
+			padding: 12px 0 8px 20px;
+			> a {
+				height: 64px;
+				> img {
+					height: 40px;
+				}
+			}
+		}
+	}
+	> .heading-right {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+

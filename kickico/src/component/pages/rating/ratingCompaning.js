@@ -1,10 +1,15 @@
-import React from 'react'
-import './ratingCompaning.css'
+import React, {Component} from 'react'
 
-const RatingCompaning = () => (
-    <div>
-        Страница рейтинга компаний!
-    </div>
-);
+import './ratingCompaning.scss'
+
+class RatingCompaning extends Component {
+    render() {
+        return (
+            <section className="ratingCompaning">
+                <p className="red">Страница рейтинга компаний!</p>
+            </section>
+        )
+    }
+}
 
 export default RatingCompaning;
